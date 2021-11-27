@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Joel Nambala portfolio that describes all you need to know about Joel. Click the link to navigate the website"
+    />
+    <title>Joel portfolio - Skills</title>
+
+    <!-- Google font library -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font awesome library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+
+    <!-- Bootstrap css library -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+
+    <!-- Style sheets -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <!-- Jquery js library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper js library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Bootstrap js library -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Scripts -->
+    <script defer src="js/skills.js"></script>
+  </head>
+  <body>
+    <header id="header" class="hidden">
+      <div class="container">
+        <h1>My portfolio</h1>
+        <hr>
+        <p>My goal is to become a JavaScript developer</p>
+        <hr>
+        <ul class="nav">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="skills.html" class="nav-link">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="projects.html" class="nav-link">Projects</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <div id="grid-container">
+      <div class="side-menu-bar">
+        <!-- Header -->
+        <header id="header" class="visible">
+          <div class="container">
+            <h1>My portfolio</h1>
+            <hr>
+            <p>My goal is to become a JavaScript developer</p>
+            <hr>
+            <ul class="nav">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="about.html" class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="skills.html" class="nav-link">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a href="projects.html" class="nav-link">Projects</a>
+              </li>
+            </ul>
+          </div>
+        </header>
+
+        <!-- Side bar -->
+        <aside id="side-bar">
+          <div class="container">
+            <div class="side-content">
+              <img src="img/profile.jpg" alt="">
+              <p>Hi, I am Joel Nambala. Welcome to my portfolio.</p>
+              <p>I love building beautiful websites with beautiful user interfaces. I always always make them with love.</p>
+              <p>Am currently studying JavaScript at the moment. I have studied HTML5 and CSS3 alongside CSS libraries such as bootstrap.</p>
+            </div>
+            <div class="social">
+              <ul class="nav">
+                <li class="nav-item">
+                  <a href="https://www.facebook.com/joel.wanjala.71653/" target="_blank" class="nav-link"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a href="https://twitter.com/joelnambala" target="_blank" class="nav-link"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a href="https://www.linkedin.com/in/joel-nambala-80b723197/" target="_blank" class="nav-link"><i class="fab fa-linkedin"></i></a>
+                </li>
+              </ul>
+            </div>
+            <div class="side-buttons">
+              <a href="about.html" class="read-more">Read More</a>
+              <a href="" class="download">Resume</a>
+            </div>
+          </div>
+        </aside>
+      </div>
+
+      <article id="skills">
+        <div class="container">
+          <div class="my-skills">            
+            <h2>Skills</h2>
+            <div id="accordion">
+              
+              <div class="card">
+                <div class="card-header">
+                  <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                    Web development
+                  </a>
+                </div>
+                <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                  <div class="card-body">
+                  <p>I have gained skills in web development. I have developed websites since the time I started to learn how to code</p>
+                  <p>I first developed websites using HTML5 and CSS3 languages. I then added bootstrap a CSS framework to make websites friendly</p>
+                  <p>I studied JavaScript and now I always use JavaScript language in my websites that I build everyday. Am still learning how to deal with data using JavaScript language.</p>
+                  </div>
+                </div>
+              </div>
+            
+              <div class="card">
+                <div class="card-header">
+                  <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                    Web hosting
+                  </a>
+                </div>
+                <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                  <div class="card-body">
+                    <p>In my career as a web developer, I have come to understand the need of an external web server where you can host your application. I have acquinted myself with some of these web servers</p>
+                    <p>The first web server I first interacted with was <a href="https://github.com/" target="_blank">github</a>. I learned how to make respositories and push your code into those repositories. I know how to configure git environment and work with master and branches.</p>
+                    <p>The second web server I have interacted with is called <a href="https://app.netlify.com/" target="_blank">netlify</a>. Here I can deploy my code and made it available for use to the users. I upload code here either manually from my machine of from github repositories.</p>
+                  </div>
+                </div>
+              </div>
+            
+              <div class="card">
+                <div class="card-header">
+                  <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+                    Microsoft applications
+                  </a>
+                </div>
+                <div id="collapseThree" class="collapse" data-parent="#accordion">
+                  <div class="card-body">
+                    <p>I have studied microsoft applications. I have a high proficiency and have interacted with these application.</p>
+                    <p>So far the applications I have interacted with are Microsoft word, Microsoft excell, Microsoft powerpoint and Microsoft access. I score a distiction in all of them.</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="skills-img">
+            <img src="img/laptop-2.png" alt="">
+          </div>
+
+          <div class="certifications">
+            <h3>My certifications</h3>
+            <p>Through my entire course, I have earned the following certifications</p>
+            <ul>
+              <li>
+                <a href="https://www.freecodecamp.org/certification/joel-nambala/responsive-web-design" target="_blank">Freecodecamp responsive web design certification</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </article>
+
+      
+    </div>
+
+        <div class="images-div">
+        <div class="container">
+            <img src="img/shoes-lake.jpg" alt="">
+            <img src="img/spring-lake.jpg" alt="">
+            <img src="img/suwalki_zalew.jpg" alt="">
+            <img src="img/winter.jpg" alt="">
+            <img src="img/zalew-frost.jpg" alt="">
+            <img src="img/zalew-trees.jpg" alt="">
+        </div>
+    </div>
+  </body>
+
+
+  <footer>
+    <div class="container">
+      <div class="side-line">
+        <div class="left-side">
+          <h4>Other information</h4>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis
+            nemo culpa a ut, sit impedit dicta, adipisci veritatis cupiditate
+            ducimus harum illum. Ullam minus quasi delectus? Quidem reiciendis
+            laboriosam exercitationem.
+          </p>
+        </div>
+        <div class="right-side">
+          <h4>Other links</h4>
+          <ul class="nav">
+            <li class="nav-item">
+              <a href="#" class="nav-link"><i class="fab fa-github"></i></a>
+            </li>
+            <li class="nav-item">
+              <a href="mailto:joel.n.wanjala@gmail.com" class="nav-link"><i class="fas fa-envelope"></i></a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link"><i class="fab fa-discord"></i></i></a>
+            </li>
+          </ul>
+
+          <div class="navigator">
+            <h3>Navigator</h3>
+            <ul class="nav">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="about.html" class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="skills.html" class="nav-link">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a href="projects.html" class="nav-link">Projects</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-detail">
+        <p>Created by <a href="tel:+254792555952">Joel Nambala</a></p>
+        <p>Copyright &copy;, 2021. All rights reserved</p>
+      </div>
+    </div>
+  </footer>
+</html>
