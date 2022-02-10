@@ -4,237 +4,337 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Joel Nambala portfolio that describes all you need to know about Joel. Click the link to navigate the website"
-    />
-    <title>Joel portfolio - About</title>
 
-    <!-- Google font library -->
+    <!-- Bootstrap -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
 
-    <!-- Font awesome library -->
+    <!-- Google font -->
     <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap"
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
     />
 
-    <!-- Bootstrap css library -->
+    <!-- Font awesome -->
     <link
       rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     />
+    <!-- <link rel="stylesheet" href="css/style.css" /> -->
+    <link rel="stylesheet" href="css/style.min.css" />
 
-    <!-- Style sheets -->
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/queries.css" />
+    <!-- Stylesheets -->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png" />
 
-    <!-- Jquery js library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Javascript files -->
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    ></script>
+    <script src="js/script.js"></script>
 
-    <!-- Popper js library -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-
-    <!-- Bootstrap js library -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-    <!-- Scripts -->
-    <script defer src="js/about.js"></script>
+    <title>Joel portfolio | About</title>
   </head>
   <body>
-    <header id="header" class="hidden">
-      <div class="container">
-        <h1>My portfolio</h1>
-        <hr>
-        <p>My goal is to become a JavaScript developer</p>
-        <hr>
-        <ul class="nav">
-          <li class="nav-item">
-            <a href="index.html" class="nav-link">Home</a>
+    <div class="mobile">
+      <header class="sidebar__header">
+        <h1 class="sidebar__heading heading">My portfolio</h1>
+      </header>
+      <div class="sidebar__line"></div>
+      <div class="sidebar__paragraph">
+        My goal is to become a Javascript developer
+      </div>
+      <div class="sidebar__line"></div>
+      <nav class="sidebar__nav">
+        <ul class="nav sidebar__list">
+          <li class="nav-item sidebar__item">
+            <a href="index.html" class="nav-link sidebar__link">Home</a>
           </li>
-          <li class="nav-item">
-            <a href="about.html" class="nav-link">About</a>
+          <li class="nav-item sidebar__item">
+            <a href="about.html" class="nav-link sidebar__link">About</a>
           </li>
-          <li class="nav-item">
-            <a href="skills.html" class="nav-link">Skills</a>
+          <li class="nav-item sidebar__item">
+            <a href="skills.html" class="nav-link sidebar__link">Skills</a>
           </li>
-          <li class="nav-item">
-            <a href="projects.html" class="nav-link">Projects</a>
+          <li class="nav-item sidebar__item">
+            <a href="projects.html" class="nav-link sidebar__link">Projects</a>
           </li>
         </ul>
-      </div>
-    </header>
-
-    <div id="grid-container">
-      <div class="side-menu-bar">
-        <!-- Header -->
-        <header id="header" class="visible">
-          <div class="container">
-            <h1>My portfolio</h1>
-            <hr>
-            <p>My goal is to become a JavaScript developer</p>
-            <hr>
-            <ul class="nav">
-              <li class="nav-item">
-                <a href="index.html" class="nav-link">Home</a>
+      </nav>
+    </div>
+    <div class="container-div">
+      <aside class="sidebar">
+        <div class="desktop">
+          <header class="sidebar__header">
+            <h1 class="sidebar__heading heading">My portfolio</h1>
+          </header>
+          <div class="sidebar__line"></div>
+          <div class="sidebar__paragraph">
+            My goal is to become a Javascript developer
+          </div>
+          <div class="sidebar__line"></div>
+          <nav class="sidebar__nav">
+            <ul class="nav sidebar__list">
+              <li class="nav-item sidebar__item">
+                <a href="index.html" class="nav-link sidebar__link">Home</a>
               </li>
-              <li class="nav-item">
-                <a href="about.html" class="nav-link">About</a>
+              <li class="nav-item sidebar__item">
+                <a href="about.html" class="nav-link sidebar__link">About</a>
               </li>
-              <li class="nav-item">
-                <a href="skills.html" class="nav-link">Skills</a>
+              <li class="nav-item sidebar__item">
+                <a href="skills.html" class="nav-link sidebar__link">Skills</a>
               </li>
-              <li class="nav-item">
-                <a href="projects.html" class="nav-link">Projects</a>
+              <li class="nav-item sidebar__item">
+                <a href="projects.html" class="nav-link sidebar__link"
+                  >Projects</a
+                >
               </li>
             </ul>
-          </div>
-        </header>
+          </nav>
+        </div>
+        <figure class="sidebar__profile">
+          <img
+            src="img/profile-min.jpg"
+            alt="Profile photo"
+            class="sidebar__photo"
+          />
+        </figure>
+        <p class="sidebar__paragraph">
+          Hi, I am Joel Nambala. Welcome to my portfolio.
+        </p>
+        <p class="sidebar__paragraph">
+          I build web applications with HTML5, CSS3 and JavaScript languages.
+        </p>
+        <p class="sidebar__paragraph">
+          Am currently studying JavaScript at the moment. I have studied HTML5
+          and CSS3 alongside CSS libraries such as bootstrap.
+        </p>
 
-        <!-- Side bar -->
-        <aside id="side-bar">
-          <div class="container">
-            <div class="side-content">
-              <img src="img/profile.jpg" alt="">
-              <p>Hi, I am Joel Nambala. Welcome to my portfolio.</p>
-              <p>I love building beautiful websites with beautiful user interfaces. I always always make them with love.</p>
-              <p>Am currently studying JavaScript at the moment. I have studied HTML5 and CSS3 alongside CSS libraries such as bootstrap.</p>
-            </div>
-            <div class="social">
-              <ul class="nav">
-                <li class="nav-item">
-                  <a href="https://www.facebook.com/joel.wanjala.71653/" target="_blank" class="nav-link"><i class="fab fa-facebook"></i></a>
-                </li>
-                <li class="nav-item">
-                  <a href="https://twitter.com/joelnambala" target="_blank" class="nav-link"><i class="fab fa-twitter"></i></a>
-                </li>
-                <li class="nav-item">
-                  <a href="https://www.linkedin.com/in/joel-nambala-80b723197/" target="_blank" class="nav-link"><i class="fab fa-linkedin"></i></a>
-                </li>
-              </ul>
-            </div>
-            <div class="side-buttons">
-              <a href="about.html" class="read-more">Read More</a>
-              <a href="" class="download">Resume</a>
-            </div>
-          </div>
-        </aside>
-      </div>
+        <div class="sidebar__icons">
+          <a
+            href="https://www.facebook.com/joel.wanjala.71653/"
+            class="sidebar__icon"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a href="https://twitter.com/joelnambala" class="sidebar__icon"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/joel-nambala-80b723197/"
+            class="sidebar__icon"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </div>
 
-      <article id="about-me">
-          <div class="container">
-                <div class="about-me-blog">
-                  <h2>About me</h2>
-                  <p>My name is Joel Nambala. Am a university student and a self-taught developer. I like to write codes and I aim to bring change to the world with my skills. I love my career as a web developer and always desire to build beautiful websites with friendly user interfaces</p>
-                  <p>I live in Nakuru kenya. I love reading story books and nature walk. I always enjoy the view of the town at my apartment. The escarpment and the morphology of the town is always attracting.</p>
-                  <p class="links">You can connect with me on <a href="https://www.linkedin.com/in/joel-nambala-80b723197/" target="_blank">linkedIn</a> or we can chat on chat on <a href="https://twitter.com/joelnambala" target="_blank">twitter</a>.</p>
-                  <div class="about-me-img">
-                    <img src="img/zalew-frost.jpg" alt="">
-                  </div>
-                </div>
-                <div class="coding-journey">
-                    <h2>About my coding journey</h2>
-                    <p>I started coding back in 2019. The first resources I used were YouTube tutorials. I started up with tutorials from traversy media where I learnt the basic fundamentals of HTML5 and CSS3.</p>
-                    <p>I joined freecodecamp where I learnt intensive HTML5 amd CSS3. I received my first certificate of Responsive web design. I then did some basic projects to ensure I have captured the content very well.</p>
-                    <p>I decided to purchase a course from Udemy where I learnt intensive fundamentals of the JavaScript language. I created some projects using the skills I have gained in JavaScript. Am still building up my skills in JavaScript and adding new knowledge to my existing knowledge base.</p>
-                </div>
-                
-                <div class="online-communities">
-                  <h2>Online communities</h2>
-                  <p>In my journey as a developer, I have found pretty good communities where I have been helped when am stuck. I have joined the following online communities:</p>
-                  <div class="days100">
-                    <img src="img/100DaysOfCode.png" alt="">
-                    <h3>#100DaysOfCode</h3>
-                    <p>This is a platform for developers in twitter where you share your progress and what you have learned with other developers. I am currently on my way to beat the 100 days challenge. Here I have been challenged really good.</p>
-                  </div>
-                  <div class="codenewbie">
-                    <img src="img/CodeNewBie.png" alt="">
-                    <h3>#CodeNewbie</h3>
-                    <p>This is also a platform for developers found on twitter. I joined and have been updating my progress</p>
-                  </div>
-                  <div class="omdena">
-                    <img src="img/omdena.png" alt="">
-                    <h3>Omdena challenge</h3>
-                    <p>Omdena is a worldwide community where developers compete. I have participated in the challenges where you build something and push it to the github. So far I have competed in creating a covid19 dashboard in Kenya</p>
-                  </div>
-                  <div class="facebook">
-                    <img src="img/facebookdevelopercircle.png" alt="">
-                    <h3>Facebook developer circle</h3>
-                    <p>Fcaebook developer circle is a platform on facebook. I joined this platform when I was starting learning how to code. This platform has greatly helped me to reach where I am. I have interacted with expert developers in this platform. They have helped me a lot when doing petty projects.</p>
-                  </div>
-                  <div class="community-img">
-                    <img src="img/hancza_river.jpg" alt="">
-                  </div>
-                </div>
-          </div>
-      </article>
-    </div>
-
-    <div class="images-div">
-      <div class="container">
-        <img src="img/shoes-lake.jpg" alt="">
-        <img src="img/spring-lake.jpg" alt="">
-        <img src="img/suwalki_zalew.jpg" alt="">
-        <img src="img/winter.jpg" alt="">
-        <img src="img/zalew-frost.jpg" alt="">
-        <img src="img/zalew-trees.jpg" alt="">
-      </div>
-    </div>
-  </body>
-
-
-  <footer>
-    <div class="container">
-      <div class="side-line">
-        <div class="left-side">
-          <h4>Other information</h4>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis
-            nemo culpa a ut, sit impedit dicta, adipisci veritatis cupiditate
-            ducimus harum illum. Ullam minus quasi delectus? Quidem reiciendis
-            laboriosam exercitationem.
+        <div class="sidebar__buttons">
+          <a href="about.html" class="btn btn-primary">Read More</a>
+          <a href="about.html" class="btn btn-primary">Resume</a>
+        </div>
+      </aside>
+      <main class="main-content">
+        <div class="about box">
+          <h2 class="about__heading heading">About me</h2>
+          <p class="about__paragraph">
+            My name is Joel Nambala. Am a university student and a self-taught
+            developer. I like to write codes and I aim to bring change to the
+            world with my skills. I love my career as a web developer and always
+            desire to build beautiful websites with friendly user interfaces.
+          </p>
+          <p class="about__paragraph">
+            You can connect with me on
+            <a
+              href="https://www.linkedin.com/in/joel-nambala-80b723197/"
+              class="about__link"
+              >linkedIn</a
+            >
+            or we can chat on chat on
+            <a href="https://twitter.com/joelnambala" class="about__link"
+              >twitter</a
+            >.
+          </p>
+          <figure class="about__photo">
+            <img
+              src="img/hancza_river-min.jpg"
+              alt="river"
+              class="about__image"
+            />
+          </figure>
+          <p class="about__paragraph">
+            I live in Nakuru kenya. I love reading story books and nature walk.
+            I always enjoy the view of the town at my apartment. The escarpment
+            and the morphology of the town is always attracting.
           </p>
         </div>
-        <div class="right-side">
-          <h4>Other links</h4>
-          <ul class="nav">
-            <li class="nav-item">
-              <a href="#" class="nav-link"><i class="fab fa-github"></i></a>
+
+        <div class="journey box">
+          <h2 class="journey__heading">About my coding journey</h2>
+          <p class="journey__paragraph">
+            I started coding back in 2019. The first resources I used were
+            YouTube tutorials. I started up with tutorials from traversy media
+            where I learnt the basic fundamentals of HTML5 and CSS3.
+          </p>
+          <p class="journey__paragraph">
+            I joined freecodecamp where I learnt intensive HTML5 amd CSS3. I
+            received my first certificate of Responsive web design. I then did
+            some basic projects to ensure I have captured the content very well.
+          </p>
+          <h3 class="journey__secondary">My contributions in the last year</h3>
+          <figure class="journey__photo">
+            <img
+              class="journey__image"
+              src="https://ghchart.rshah.org/joel-nambala"
+              alt="2016rshah's Github chart"
+            />
+          </figure>
+        </div>
+
+        <div class="community box">
+          <h2 class="community__heading heading">Online communities</h2>
+          <ul class="community__list">
+            <li class="community__item">
+              <img
+                src="img/100DaysOfCode-min.png"
+                alt="100DaysOfCode"
+                class="community__image"
+              />
+              <h3 class="community__secondary">#100DaysOfCode</h3>
+              <p class="community__paragraph">
+                This is a platform for developers in twitter where you share
+                your progress and what you have learned with other developers. I
+                am currently on my way to beat the 100 days challenge. Here I
+                have been challenged really good.
+              </p>
             </li>
-            <li class="nav-item">
-              <a href="mailto:joel.n.wanjala@gmail.com" class="nav-link"><i class="fas fa-envelope"></i></a>
+
+            <li class="community__item">
+              <img
+                src="img/CodeNewBie-min.png"
+                alt="CodeNewBie"
+                class="community__image"
+              />
+              <h3 class="community__secondary">#CodeNewbie</h3>
+              <p class="community__paragraph">
+                This is also a platform for developers found on twitter. I
+                joined and have been updating my progress.
+              </p>
             </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link"><i class="fab fa-discord"></i></i></a>
+
+            <li class="community__item">
+              <img
+                src="img/omdena-min.png"
+                alt="Omdena"
+                class="community__image"
+              />
+              <h3 class="community__secondary">Omdena challenge</h3>
+              <p class="community__paragraph">
+                Omdena is a worldwide community where developers compete. I have
+                participated in the challenges where you build something and
+                push it to the github. So far I have competed in creating a
+                covid19 dashboard in Kenya
+              </p>
+            </li>
+
+            <li class="community__item">
+              <img
+                src="img/facebookdevelopercircle.png"
+                alt="facebookdevelopercircle"
+                class="community__image"
+              />
+              <h3 class="community__secondary">Facebook developer circle</h3>
+              <p class="community__paragraph">
+                Facebook developer circle is a platform on facebook. I joined
+                this platform when I was starting learning how to code. This
+                platform has greatly helped me to reach where I am. I have
+                interacted with expert developers in this platform. They have
+                helped me a lot when doing petty projects.
+              </p>
             </li>
           </ul>
-
-          <div class="navigator">
-            <h3>Navigator</h3>
+        </div>
+      </main>
+    </div>
+    <div class="images">
+      <img src="img/zalew-trees-min.jpg" alt="River" class="images__img" />
+      <img src="img/zalew-frost-min.jpg" alt="River" class="images__img" />
+      <img src="img/winter-min.jpg" alt="River" class="images__img" />
+      <img src="img/lake_krzywe-min.jpeg" alt="River" class="images__img" />
+      <img src="img/suwalki_zalew-min.jpg" alt="River" class="images__img" />
+      <img src="img/spring-lake-min.jpg" alt="River" class="images__img" />
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="info">
+          <h3 class="info__heading">Other information</h3>
+          <p class="info__paragraph">
+            I study library and information science. I presume I will start
+            wriring some articles about how far I have gone. When the articles
+            are ready, I will post them on my portfolio.
+          </p>
+        </div>
+        <div class="social">
+          <h3 class="social__heading">Other links</h3>
+          <nav class="social__nav">
             <ul class="nav">
               <li class="nav-item">
-                <a href="index.html" class="nav-link">Home</a>
+                <a href="#" class="nav-link"
+                  ><i class="fa-brands fa-github"></i
+                ></a>
               </li>
               <li class="nav-item">
-                <a href="about.html" class="nav-link">About</a>
+                <a href="mailto:joel.n.wanjala@gmail.com" class="nav-link"
+                  ><i class="fa fa-envelope"></i
+                ></a>
               </li>
               <li class="nav-item">
-                <a href="skills.html" class="nav-link">Skills</a>
-              </li>
-              <li class="nav-item">
-                <a href="projects.html" class="nav-link">Projects</a>
+                <a href="#" class="nav-link"
+                  ><i class="fa-brands fa-discord"></i
+                ></a>
               </li>
             </ul>
+          </nav>
+
+          <div class="navigator">
+            <h3 class="navigator__heading heading">Navigator</h3>
+            <nav class="navigator__nav">
+              <ul class="nav navigator__list">
+                <li class="nav-item navigator__item">
+                  <a href="index.html" class="nav-link navigator__link">Home</a>
+                </li>
+                <li class="nav-item navigator__item">
+                  <a href="about.html" class="nav-link navigator__link"
+                    >About</a
+                  >
+                </li>
+                <li class="nav-item navigator__item">
+                  <a href="skills.html" class="nav-link navigator__link"
+                    >Skills</a
+                  >
+                </li>
+                <li class="nav-item navigator__item">
+                  <a href="projects.html" class="nav-link navigator__link"
+                    >Projects</a
+                  >
+                </li>
+              </ul>
+            </nav>
           </div>
         </div>
       </div>
-      <div class="footer-detail">
-        <p>Created by <a href="tel:+254792555952">Joel Nambala</a></p>
-        <p>Copyright &copy;, 2021. All rights reserved</p>
+      <!-- <img
+        src="https://ghchart.rshah.org/joel-nambala"
+        alt="2016rshah's Github chart"
+      /> -->
+      <div class="legal-text">
+        <p class="legal-text__paragraph text-center">
+          Created by
+          <a href="tel:+254792555952" class="legal-text__link">Joel Nambala</a>.
+        </p>
+        <p class="legal-text__paragraph text-center">
+          Copyright &copy;, 2022. All rights reserved.
+        </p>
       </div>
-    </div>
-  </footer>
+    </footer>
+  </body>
 </html>

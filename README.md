@@ -1,2 +1,3 @@
 # personal-portfolio
-I created this portfolio using HTML5 and CSS3
+
+I created this portfolio using HTML5 and SCSS with a little JavaScript

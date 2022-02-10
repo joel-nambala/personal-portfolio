@@ -1,0 +1,28 @@
+.revocafe {
+  &__photo {
+    margin-bottom: 4rem;
+  }
+
+  &__img {
+    width: 100%;
+  }
+
+  &__heading {
+    font-size: 2.8rem;
+    margin-bottom: 2rem;
+  }
+
+  &__paragraph {
+    font-size: $default-font-size;
+
+    &--tech {
+      color: $color-primary-2;
+    }
+  }
+
+  &__link {
+    & a:not(:last-child) {
+      margin-right: 1.5rem;
+    }
+  }
+}

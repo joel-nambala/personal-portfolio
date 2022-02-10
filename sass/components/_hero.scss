@@ -1,0 +1,39 @@
+.hero {
+  &__photo {
+    margin-bottom: 3rem;
+  }
+
+  &__img {
+    width: 100%;
+  }
+
+  &__heading {
+    font-size: 2.8rem;
+    margin-bottom: 2rem;
+  }
+
+  &__paragraph {
+    font-size: $default-font-size;
+  }
+
+  &__quote {
+    background-color: #dee2e6;
+    margin: 8rem 0 8rem 40rem;
+    padding: 1.3rem;
+    border-radius: 5px;
+    font-size: $default-font-size;
+    border-left: 0.7rem solid #495057;
+
+    @media only screen and (max-width: $bp-largest) {
+      margin-left: 25rem;
+    }
+
+    @media only screen and (max-width: $bp-large) {
+      margin-left: 20rem;
+    }
+
+    @media only screen and (max-width: $bp-medium) {
+      margin-left: 0;
+    }
+  }
+}
