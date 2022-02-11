@@ -1,4 +1,4 @@
-# personal-portfolio
+# Personal-portfolio
 
 I created this portfolio using HTML5 and SCSS with a little JavaScript
 
@@ -13,3 +13,7 @@ Starts the application in development
 ### `npm build`
 
 Builds the application ready for shipment
+
+## Packages
+
+I used node-sass and npm-run-all packages in this project
