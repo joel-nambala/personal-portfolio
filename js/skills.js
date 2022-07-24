@@ -10,7 +10,7 @@ const containerSkills = document.querySelectorAll('.skill-container');
 const firstChild = document.querySelector('.first-container');
 
 skillsHeader.forEach(function (el, i, arr) {
-  firstChild.style.height = '184px';
+  firstChild.style.height = 'auto';
   el.addEventListener('click', function (e) {
     const element = e.currentTarget.closest('.skills__header');
 
@@ -93,7 +93,7 @@ const prevSlide = function () {
 
 btnRight.addEventListener('click', nextSlide);
 btnLeft.addEventListener('click', prevSlide);
-setInterval(nextSlide, 10000);
+// setInterval(nextSlide, 10000);
 
 dotsContainer.addEventListener('click', function (e) {
   if (!e.target.classList.contains('dot')) return;

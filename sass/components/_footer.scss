@@ -3,6 +3,10 @@
   padding: 6.2rem 3.2rem 0 3.2rem;
   margin: 0 auto;
 
+  @media only screen and (max-width: $bp-medium) {
+    padding: 6.2rem 0 0 0;
+  }
+
   &__title {
     font-size: 2.4rem;
     margin-bottom: 1.4rem;
@@ -15,6 +19,10 @@
 
   &__icons {
     margin: 1.4rem 0 3.2rem 0 !important;
+
+    @media only screen and (max-width: $bp-medium) {
+      margin-bottom: 1.2rem !important;
+    }
   }
 
   &__nav {
@@ -23,5 +31,11 @@
 
   &__legal {
     margin: 3.2rem 0 1.4rem 0;
+  }
+
+  &__others {
+    @media only screen and (max-width: $bp-medium) {
+      margin-top: 3.2rem;
+    }
   }
 }

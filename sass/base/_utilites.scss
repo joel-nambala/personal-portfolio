@@ -1,10 +1,14 @@
 .flex {
   display: flex;
   gap: 10%;
+
+  @media only screen and (max-width: $bp-medium) {
+    flex-direction: column;
+  }
 }
 
 .flex div {
-  width: 45%;
+  width: 100%;
 }
 
 .btn,
@@ -67,13 +71,16 @@
 }
 
 .gallery {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
   margin-top: 6.4rem;
   padding: 0 1.2rem;
   display: flex;
   align-items: center;
   gap: 1.2rem;
+
+  @media only screen and (max-width: $bp-large) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
 
   &__photo {
     width: 100%;

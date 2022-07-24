@@ -1,4 +1,25 @@
 .container {
   display: grid;
   grid-template-columns: 30fr 60fr;
+
+  @media only screen and (max-width: $bp-large) {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+.mobile {
+  display: none;
+
+  @media only screen and (max-width: $bp-large) {
+    display: block;
+    padding: 2.4rem;
+    background-color: $color-grey-2;
+  }
+}
+
+.desktop {
+  @media only screen and (max-width: $bp-large) {
+    display: none;
+  }
 }

@@ -119,6 +119,10 @@
   border-radius: 6px;
   border-left: 0.6rem solid $color-grey-4;
 
+  @media only screen and (max-width: $bp-small) {
+    max-width: 100%;
+  }
+
   &__author {
     font-size: 1.8rem;
     margin-bottom: 1.2rem;
