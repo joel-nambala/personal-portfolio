@@ -1,86 +1,27 @@
-.container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 10rem;
+.footer {
+  max-width: 90%;
+  padding: 6.2rem 3.2rem 0 3.2rem;
+  margin: 0 auto;
 
-  @media only screen and (max-width: $bp-medium) {
-    grid-gap: 2rem;
-  }
-
-  @media only screen and (max-width: $bp-small) {
-    display: block;
-  }
-}
-
-.info {
-  @media only screen and (max-width: $bp-small) {
-    margin-bottom: 4rem;
-  }
-
-  &__heading {
+  &__title {
     font-size: 2.4rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1.4rem;
   }
 
-  &__paragraph {
-    font-size: $default-font-size;
-  }
-}
-
-.social {
-  &__heading {
-    font-size: 2.4rem;
-    margin-bottom: 1rem;
+  &__text {
+    font-size: 1.6rem;
+    line-height: 1.6;
   }
 
-  .nav-item {
-    font-size: 1.5rem;
-  }
-
-  .nav-link {
-    color: $color-primary-2;
-    transition: all 0.4s;
-
-    &:hover {
-      transform: scale(1.11);
-    }
-  }
-}
-
-.navigator {
-  margin-top: 3rem;
-
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-
-  &__heading {
-    font-size: 2.6rem;
+  &__icons {
+    margin: 1.4rem 0 3.2rem 0 !important;
   }
 
   &__nav {
-    margin-left: -1rem;
+    margin: 0 !important;
   }
 
-  &__item {
-    text-transform: uppercase;
-  }
-}
-
-.legal-text {
-  margin: 6rem 0 2rem 0;
-
-  &__paragraph {
-    font-size: $default-font-size;
-  }
-
-  &__link {
-    text-decoration: none;
-    color: $color-primary-2;
-
-    &:hover {
-      text-decoration: underline;
-      color: $color-primary-2;
-    }
+  &__legal {
+    margin: 3.2rem 0 1.4rem 0;
   }
 }

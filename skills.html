@@ -9,15 +9,9 @@
       content="A landing portfolio for Joel Nambala. A programmer who is ambitious, self-taught and determined."
     />
 
-    <!-- Bootstrap -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-
     <!-- Google font -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
 
@@ -26,471 +20,243 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     />
-    <!-- <link rel="stylesheet" href="css/style.css" /> -->
-    <link rel="stylesheet" href="css/style.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
 
     <!-- Stylesheets -->
     <link rel="shortcut icon" href="img/favicon.png" type="image/png" />
 
     <!-- Javascript files -->
-    <script
-      defer
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    ></script>
-    <script src="js/script.js"></script>
+    <script defer src="js/skills.js"></script>
 
     <title>Joel portfolio | Home</title>
   </head>
   <body>
-    <div class="mobile">
-      <header class="sidebar__header">
-        <h1 class="sidebar__heading heading">My portfolio</h1>
-      </header>
-      <div class="sidebar__line"></div>
-      <div class="sidebar__paragraph">
-        My goal is to become a Javascript developer
-      </div>
-      <div class="sidebar__line"></div>
-      <nav class="sidebar__nav">
-        <ul class="nav sidebar__list">
-          <li class="nav-item sidebar__item">
-            <a href="index.html" class="nav-link sidebar__link">Home</a>
-          </li>
-          <li class="nav-item sidebar__item">
-            <a href="about.html" class="nav-link sidebar__link">About</a>
-          </li>
-          <li class="nav-item sidebar__item">
-            <a href="skills.html" class="nav-link sidebar__link">Skills</a>
-          </li>
-          <li class="nav-item sidebar__item">
-            <a href="projects.html" class="nav-link sidebar__link">Projects</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-    <div class="container-div">
+    <main class="container">
       <aside class="sidebar">
-        <div class="desktop">
-          <header class="sidebar__header">
-            <h1 class="sidebar__heading heading">My portfolio</h1>
-          </header>
-          <div class="sidebar__line"></div>
-          <div class="sidebar__paragraph">
-            My goal is to become a Javascript developer
-          </div>
-          <div class="sidebar__line"></div>
-          <nav class="sidebar__nav">
-            <ul class="nav sidebar__list">
-              <li class="nav-item sidebar__item">
-                <a href="index.html" class="nav-link sidebar__link">Home</a>
-              </li>
-              <li class="nav-item sidebar__item">
-                <a href="about.html" class="nav-link sidebar__link">About</a>
-              </li>
-              <li class="nav-item sidebar__item">
-                <a href="skills.html" class="nav-link sidebar__link">Skills</a>
-              </li>
-              <li class="nav-item sidebar__item">
-                <a href="projects.html" class="nav-link sidebar__link"
-                  >Projects</a
-                >
-              </li>
-            </ul>
-          </nav>
-        </div>
-        <figure class="sidebar__profile">
-          <img
-            src="img/profile-min.jpg"
-            alt="Profile photo"
-            class="sidebar__photo"
-          />
+        <h1 class="sidebar__title">My portfolio</h1>
+        <div class="sidebar__line"></div>
+        <p class="sidebar__info">My goal is to become a JavaScript developer</p>
+        <div class="sidebar__line"></div>
+        <nav class="sidebar__nav">
+          <ul class="sidebar__list">
+            <li class="sidebar__item">
+              <a href="index.html" class="sidebar__link">Home</a>
+            </li>
+            <li class="sidebar__item">
+              <a href="about.html" class="sidebar__link">About</a>
+            </li>
+            <li class="sidebar__item">
+              <a href="skills.html" class="sidebar__link">Skills</a>
+            </li>
+            <li class="sidebar__item">
+              <a href="projects.html" class="sidebar__link">Projects</a>
+            </li>
+          </ul>
+        </nav>
+        <figure class="sidebar__photo">
+          <img src="img/profile.jpg" alt="Joel Nambala" class="sidebar__img" />
         </figure>
-        <p class="sidebar__paragraph">
-          Hi, I am Joel Nambala. Welcome to my portfolio.
+        <p class="sidebar__info">Hi, I am Joel Nambala. This is my portfolio.</p>
+        <p class="sidebar__info">
+          I build web applications and cool websites using HTML5, CSS3 and
+          JavaScript languages.
         </p>
-        <p class="sidebar__paragraph">
-          I build web applications with HTML5, CSS3 and JavaScript languages.
+        <p class="sidebar__info">
+          Am currently studying advanced and modern JavaScript.
         </p>
-        <p class="sidebar__paragraph">
-          Am currently studying JavaScript at the moment. I have studied HTML5
-          and CSS3 alongside CSS libraries such as bootstrap.
-        </p>
-
-        <div class="sidebar__icons">
+        <article class="sidebar__icons">
           <a
             href="https://www.facebook.com/joel.wanjala.71653/"
-            class="sidebar__icon"
-            ><i class="fab fa-facebook"></i
+            class="sidebar__icon" target="_blank"
+            ><i class="fa-brands fa-facebook"></i
           ></a>
-          <a href="https://twitter.com/joelnambala" class="sidebar__icon"
-            ><i class="fab fa-twitter"></i
+          <a
+            href="https://twitter.com/joelnambala"
+            class="sidebar__icon" target="_blank"
+            ><i class="fa-brands fa-twitter"></i></i
           ></a>
           <a
             href="https://www.linkedin.com/in/joel-nambala-80b723197/"
-            class="sidebar__icon"
-            ><i class="fab fa-linkedin"></i
+            class="sidebar__icon" target="_blank"
+            ><i class="fa-brands fa-linkedin"></i></i
           ></a>
-        </div>
-
+        </article>
         <div class="sidebar__buttons">
-          <a href="about.html" class="btn btn-primary">Read More</a>
-          <a href="about.html" class="btn btn-primary">Resume</a>
+          <a href="#" class="btn btn-more">Read more</a>
+          <a href="#" class="btn btn-resume">Resume</a>
         </div>
       </aside>
-      <main class="main-content">
-        <div class="skills box">
-          <div class="skills__heading heading">Skills</div>
-          <div class="accordion accordion-flush" id="skills">
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="flush-headingOne">
-                <button
-                  class="accordion-button collapsed skills__secondary"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseOne"
-                >
-                  Web development
-                </button>
-              </h2>
-              <div
-                id="flush-collapseOne"
-                class="accordion-collapse collapse show"
-                aria-labelledby="flush-headingOne"
-                data-bs-parent="#skills"
-              >
-                <div class="accordion-body">
-                  <p class="skills__paragraph">
-                    I have gained skills in web development. I have developed
-                    websites since the time I started to learn how to code
-                  </p>
-                  <p class="skills__paragraph">
-                    I first developed websites using HTML5 and CSS3 languages. I
-                    then added bootstrap a CSS framework to make websites
-                    friendly
-                  </p>
-                  <p class="skills__paragraph">
-                    I studied JavaScript and now I always use JavaScript
-                    language in my websites that I build everyday. Am still
-                    learning how to deal with data using JavaScript language.
-                  </p>
+      <section class="skills">
+        <div class="box">
+          <h2 class="heading-secondary skills__title">Skills</h2>
+          <div class="skills-parent">
+            <article class="skills__container">
+              <header class="skills__header">
+                <h3 class="skills__name">Web development</h3>
+                <i class="fas fa-chevron-down skills__icon"></i>
+              </header>
+              <section class="skill-container first-container">
+                <div class="skills__body">
+                  <p class="skills__text">I have gained skills in web development. I have developed websites since the time I started to learn how to code</p>
+                  <p class="skills__text">I first developed websites using HTML5 and CSS3 languages. I then added bootstrap a CSS framework to make websites friendly</p>
+                  <p class="skills__text">I studied JavaScript and now I always use JavaScript language in my websites that I build everyday. Am still learning how to deal with data using JavaScript language.</p>
                 </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="flush-headingTwo">
-                <button
-                  class="accordion-button collapsed skills__secondary"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseTwo"
-                  aria-expanded="false"
-                  aria-controls="flush-collapseTwo"
-                >
-                  Web hosting
-                </button>
-              </h2>
-              <div
-                id="flush-collapseTwo"
-                class="accordion-collapse collapse"
-                aria-labelledby="flush-headingTwo"
-                data-bs-parent="#accordionFlushExample"
-              >
-                <div class="accordion-body">
-                  <p class="skills__paragraph">
-                    In my career as a web developer, I have come to understand
-                    the need of an external web server where you can host your
-                    application. I have acquinted myself with some of these web
-                    servers
-                  </p>
-                  <p class="skills__paragraph">
-                    The first web server I first interacted with was
-                    <a href="https://github.com/" class="skills__link">github</a
-                    >. I learned how to make respositories and push your code
-                    into those repositories. I know how to configure git
-                    environment and work with master and branches.
-                  </p>
-                  <p class="skills__paragraph">
-                    The second web server I have interacted with is called
-                    <a href="https://app.netlify.com/" class="skills__link"
-                      >netlify</a
-                    >. Here I can deploy my code and made it available for use
-                    to the users. I upload code here either manually from my
-                    machine of from github repositories.
-                  </p>
+              </section>
+            </article>
+  
+            <article class="skills__container">
+              <header class="skills__header">
+                <h3 class="skills__name">Web hosting</h3>
+                <i class="fas fa-chevron-down skills__icon"></i>
+              </header>
+              <section class="skill-container">
+                <div class="skills__body">
+                  <p class="skills__text">In my career as a web developer, I have come to understand the need of an external web server where you can host your application. I have acquinted myself with some of these web servers</p>
+                  <p class="skills__text">The first web server I first interacted with was github. I learned how to make respositories and push your code into those repositories. I know how to configure git environment and work with master and branches.</p>
+                  <p class="skills__text">The second web server I have interacted with is called netlify. Here I can deploy my code and made it available for use to the users. I upload code here either manually from my machine of from github repositories.</p>
                 </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="flush-headingThree">
-                <button
-                  class="accordion-button collapsed skills__secondary"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseThree"
-                  aria-expanded="false"
-                  aria-controls="flush-collapseThree"
-                >
-                  Microsoft application
-                </button>
-              </h2>
-              <div
-                id="flush-collapseThree"
-                class="accordion-collapse collapse"
-                aria-labelledby="flush-headingThree"
-                data-bs-parent="#accordionFlushExample"
-              >
-                <div class="accordion-body">
-                  <p class="skills__paragraph">
-                    I have studied microsoft applications. I have a high
-                    proficiency and have interacted with these application.
-                  </p>
-                  <p class="skills__paragraph">
-                    So far the applications I have interacted with are Microsoft
-                    word, Microsoft excell, Microsoft powerpoint and Microsoft
-                    access. I score a distiction in all of them.
-                  </p>
+              </section>
+            </article>
+  
+            <article class="skills__container">
+              <header class="skills__header">
+                <h3 class="skills__name">Microsoft application</h3>
+                <i class="fas fa-chevron-down skills__icon"></i>
+              </header>
+              <section class="skill-container">
+                <div class="skills__body">
+                  <p class="skills__text">I have studied microsoft applications. I have a high proficiency and have interacted with these application.</p>
+                  <p class="skills__text">I first developed websites using HTML5 and CSS3 languages. I then added bootstrap a CSS framework to make websites friendly</p>
+                  <p class="skills__text">So far the applications I have interacted with are Microsoft word, Microsoft excell, Microsoft powerpoint and Microsoft access. I score a distiction in all of them.</p>
                 </div>
-              </div>
-            </div>
+              </section>
+            </article>
           </div>
-          <figure class="skills__photo">
-            <img
-              src="img/laptop-2-min.png"
-              alt="laptop-2"
-              class="skills__image"
-            />
-          </figure>
-        </div>
-        <div class="certification box">
-          <h2 class="certification__heading heading">My certifications</h2>
-          <ul class="certification__list">
-            <li class="certification__item">
-              <i class="fa-solid fa-check certification__icon"></i>
-              <a
-                target="_blank"
-                href="https://www.freecodecamp.org/certification/joel-nambala/responsive-web-design"
-                class="certification__link"
-                >Freecodecamp responsive web design certification</a
-              >
-            </li>
-            <li class="certification__item">
-              <i class="fa-solid fa-check certification__icon"></i>
-              <a
-                target="_blank"
-                href="https://www.freecodecamp.org/certification/joel-nambala/javascript-algorithms-and-data-structures"
-                class="certification__link"
-                >Freecodecamp JavaScript algorithms and data structures
-                certification</a
-              >
-            </li>
-            <li class="certification__item">
-              <i class="fa-solid fa-check certification__icon"></i>
-              <a
-                target="_blank"
-                href="https://udemy-certificate.s3.amazonaws.com/image/UC-d734ebfb-4eae-4bea-af75-8ef0f12edefb.jpg?v=1642190659000"
-                class="certification__link"
-                >The Complete JavaScript Course 2022: From Zero to Expert!
-              </a>
-            </li>
-          </ul>
         </div>
 
-        <div class="team box">
-          <h2 class="team__heading heading">My connections</h2>
-          <div class="team__carousel">
-            <div
-              id="team"
-              class="carousel carousel-dark slide"
-              data-bs-ride="carousel"
-            >
-              <div class="carousel-indicators">
-                <button
-                  type="button"
-                  data-bs-target="#team"
-                  data-bs-slide-to="0"
-                  class="active"
-                  aria-current="true"
-                  aria-label="Slide 1"
-                ></button>
-                <button
-                  type="button"
-                  data-bs-target="#team"
-                  data-bs-slide-to="1"
-                  aria-label="Slide 2"
-                ></button>
-                <button
-                  type="button"
-                  data-bs-target="#team"
-                  data-bs-slide-to="2"
-                  aria-label="Slide 3"
-                ></button>
+        <div class="box">
+          <article class="certification">
+            <h2 class="heading-secondary certification__title">My certifications</h2>
+            <ul class="certification__list">
+              <li class="certification__item">
+                <i class="fas fa-check certification__icon"></i>
+                <a href="https://www.freecodecamp.org/certification/joel-nambala/responsive-web-design" target="_blank" class="certification__link">Freecodecamp responsive web design certification</a>
+              </li>
+              <li class="certification__item">
+                <i class="fas fa-check certification__icon"></i>
+                <a href="https://www.freecodecamp.org/certification/joel-nambala/javascript-algorithms-and-data-structures" target="_blank" class="certification__link">Freecodecamp JavaScript algorithms and data structures certification</a>
+              </li>
+              <li class="certification__item">
+                <i class="fas fa-check certification__icon"></i>
+                <a href="https://udemy-certificate.s3.amazonaws.com/image/UC-d734ebfb-4eae-4bea-af75-8ef0f12edefb.jpg?v=1642190659000" target="_blank" class="certification__link">The Complete JavaScript Course 2022: From Zero to Expert!</a>
+              </li>
+            </ul>
+          </article>
+        </div>
+        <div class="box">
+          <div class="connection">
+            <h2 class="heading-secondary connection__title">My connections</h2>
+            <div class="connection__slider">
+              <div class="slide connection__slide--1">
+                <img class="connection__img" src="https://juma.vercel.app/pics/prof.png" alt="Dennis Juma">
+                <h3 class="connection__name">Dennis Juma</h3>
+                <p class="connection__text">An ambitious programmer. I hace worked with him and he is always eager to learn new technologies.</p>
+                <a href="#" class="connection__link">View portfolio</a>
               </div>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <div class="team__details">
-                    <figure class="team__photo">
-                      <img
-                        src="https://juma.vercel.app/pics/prof.png"
-                        alt=""
-                        class="team__image"
-                      />
-                    </figure>
-                    <h3 class="team__name text-center">Dennis Juma</h3>
-                    <p class="team__paragraph text-center">
-                      An ambitious programmer. I hace worked with him and he is
-                      always eager to learn new technologies.
-                    </p>
-                    <p class="team__paragraph">
-                      <a href="https://juma.vercel.app" class="team__website"
-                        >View portfolio</a
-                      >
-                    </p>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="team__details">
-                    <figure class="team__photo">
-                      <img
-                        src="img/melisa-min.png"
-                        alt=""
-                        class="team__image"
-                      />
-                    </figure>
-                    <h3 class="team__name text-center">Fridah Wanjala</h3>
-                    <p class="team__paragraph text-center">
-                      She is my role model and mentor. She has encouraged me on
-                      my journey. Very ambitious and strict.
-                    </p>
-                    <p class="team__paragraph">
-                      <a
-                        href="mailto:wanjala.n.fridah@gmail.com"
-                        class="team__website"
-                        >Contact</a
-                      >
-                    </p>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="team__details">
-                    <figure class="team__photo">
-                      <img src="img/mike-min.png" alt="" class="team__image" />
-                    </figure>
-                    <h3 class="team__name text-center">Dennis Juma</h3>
-                    <p class="team__paragraph text-center">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Reprehenderit id tenetur quod est dolorum accusamus.
-                    </p>
-                    <p class="team__paragraph">
-                      <a href="#" class="team__website">Lorem, ipsum dolor.</a>
-                    </p>
-                  </div>
-                </div>
+              <div class="slide connection__slide--2">
+                <img class="connection__img" src="img/mike-min.png" alt="Dennis Juma">
+                <h3 class="connection__name">John Doe</h3>
+                <p class="connection__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure animi dolorem error reprehenderit esse quibusdam nobis illo possimus totam illum, repellat voluptatem. Quia, ipsa illum.</p>
+                <a href="#" class="connection__link">View portfolio</a>
               </div>
-              <button
-                class="carousel-control-prev"
-                type="button"
-                data-bs-target="#team"
-                data-bs-slide="prev"
-              >
-                <span
-                  class="carousel-control-prev-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button
-                class="carousel-control-next"
-                type="button"
-                data-bs-target="#team"
-                data-bs-slide="next"
-              >
-                <span
-                  class="carousel-control-next-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Next</span>
-              </button>
+              <div class="slide connection__slide--3">
+                <img class="connection__img" src="img/javascriptcode.png" alt="Dennis Juma">
+                <h3 class="connection__name">Mark Miller</h3>
+                <p class="connection__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis pariatur quod sed fugit debitis maiores laudantium quia in fugiat obcaecati.</p>
+                <a href="#" class="connection__link">View portfolio</a>
+              </div>              
+              <button class="btn-left"><i class="fas fa-chevron-left"></i></button>
+              <button class="btn-right"><i class="fas fa-chevron-right"></i></button>
+              <div class="dots">
+                <!-- <button class="dot dot-active"></button>
+                <button class="dot"></button>
+                <button class="dot"></button> -->
+              </div>
             </div>
           </div>
         </div>
-      </main>
-    </div>
-    <div class="images">
-      <img src="img/zalew-trees-min.jpg" alt="River" class="images__img" />
-      <img src="img/zalew-frost-min.jpg" alt="River" class="images__img" />
-      <img src="img/winter-min.jpg" alt="River" class="images__img" />
-      <img src="img/lake_krzywe-min.jpeg" alt="River" class="images__img" />
-      <img src="img/suwalki_zalew-min.jpg" alt="River" class="images__img" />
-      <img src="img/spring-lake-min.jpg" alt="River" class="images__img" />
-    </div>
+      </section>
+    </main>
+
+    <section class="gallery">
+      <figure class="gallery__photo">
+        <img src="img/hancza_river-min.jpg" alt="hancza river">
+      </figure>
+      <figure class="gallery__photo">
+        <img src="img/lake_krzywe-min.jpeg" alt="hancza river">
+      </figure>
+      <figure class="gallery__photo">
+        <img src="img/shoes-lake-min.jpg" alt="hancza river">
+      </figure>
+      <figure class="gallery__photo">
+        <img src="img/winter-min.jpg" alt="hancza river">
+      </figure>
+      <figure class="gallery__photo">
+        <img src="img/zalew-frost-min.jpg" alt="hancza river">
+      </figure>
+      <figure class="gallery__photo">
+        <img src="img/zalew-trees-min.jpg" alt="hancza river">
+      </figure>
+    </section>
+
     <footer class="footer">
-      <div class="container">
-        <div class="info">
-          <h3 class="info__heading">Other information</h3>
-          <p class="info__paragraph">
-            I study library and information science. I presume I will start
-            wriring some articles about how far I have gone. When the articles
-            are ready, I will post them on my portfolio.
-          </p>
+      <div class="flex">
+        <div>
+          <h3 class="footer__title">Other information</h3>
+        <p class="footer__text">Am a self-taught website developer with knowledge and skills in the web industry. I have studied website technologies such as HTML5, CSS3 and JavaScript. I have also worked with bootstrap CSS library.</p>
         </div>
-        <div class="social">
-          <h3 class="social__heading">Other links</h3>
-          <nav class="social__nav">
-            <ul class="nav">
-              <li class="nav-item">
-                <a href="#" class="nav-link"
-                  ><i class="fa-brands fa-github"></i
-                ></a>
+        <div class="footer__others">
+          <h3 class="footer__title">Other links</h3>
+          <article class="sidebar__icons footer__icons">
+            <a
+              href="https://www.facebook.com/joel.wanjala.71653/"
+              class="sidebar__icon" target="_blank"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a
+              href="https://twitter.com/joelnambala"
+              class="sidebar__icon" target="_blank"
+              ><i class="fa-brands fa-twitter"></i></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/joel-nambala-80b723197/"
+              class="sidebar__icon" target="_blank"
+              ><i class="fa-brands fa-linkedin"></i></i
+            ></a>
+          </article>
+          <h3 class="footer__title teal">Navigator</h3>
+          <nav class="sidebar__nav footer__nav">
+            <ul class="sidebar__list">
+              <li class="sidebar__item">
+                <a href="index.html" class="sidebar__link">Home</a>
               </li>
-              <li class="nav-item">
-                <a href="mailto:joel.n.wanjala@gmail.com" class="nav-link"
-                  ><i class="fa fa-envelope"></i
-                ></a>
+              <li class="sidebar__item">
+                <a href="about.html" class="sidebar__link">About</a>
               </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link"
-                  ><i class="fa-brands fa-discord"></i
-                ></a>
+              <li class="sidebar__item">
+                <a href="projects.html" class="sidebar__link">Projects</a>
+              </li>
+              <li class="sidebar__item">
+                <a href="skills.html" class="sidebar__link">Skills</a>
               </li>
             </ul>
           </nav>
-
-          <div class="navigator">
-            <h3 class="navigator__heading heading">Navigator</h3>
-            <nav class="navigator__nav">
-              <ul class="nav navigator__list">
-                <li class="nav-item navigator__item">
-                  <a href="index.html" class="nav-link navigator__link">Home</a>
-                </li>
-                <li class="nav-item navigator__item">
-                  <a href="about.html" class="nav-link navigator__link"
-                    >About</a
-                  >
-                </li>
-                <li class="nav-item navigator__item">
-                  <a href="skills.html" class="nav-link navigator__link"
-                    >Skills</a
-                  >
-                </li>
-                <li class="nav-item navigator__item">
-                  <a href="projects.html" class="nav-link navigator__link"
-                    >Projects</a
-                  >
-                </li>
-              </ul>
-            </nav>
-          </div>
         </div>
       </div>
 
-      <div class="legal-text">
-        <p class="legal-text__paragraph text-center">
-          Created by
-          <a href="tel:+254792555952" class="legal-text__link">Joel Nambala</a>.
-        </p>
-        <p class="legal-text__paragraph text-center">
-          Copyright &copy;, 2022. All rights reserved.
-        </p>
+      <div class="footer__legal text-center">
+        <p class="footer__text">Created by <a href="mailto:joel.n.wanjala@gmail.com" target="_blank" class="teal">Joel Nambala</a></p>
+        <p class="footer__text">Copyright &copy;, <span class="copy-year">2022</span>. All rights reserved.</p>
       </div>
     </footer>
   </body>

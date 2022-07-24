@@ -1,0 +1,131 @@
+.sidebar {
+  padding: 2.4rem;
+  background-color: $color-grey-2;
+
+  &__title {
+    font-size: 4.6rem;
+    margin-bottom: 3.6rem;
+    background-image: linear-gradient(
+      to right,
+      $color-primary,
+      $color-primary-2
+    );
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+  &__line {
+    background-color: #ccc;
+    height: 0.1rem;
+    width: 65%;
+  }
+
+  &__info {
+    margin: 1.4rem 0;
+    font-size: 1.8rem;
+    line-height: 1.6;
+  }
+
+  &__nav {
+    margin: 3.6rem 0;
+  }
+
+  &__list {
+    list-style: none;
+    display: flex;
+    gap: 1.8rem;
+  }
+
+  &__link:link,
+  &__link:visited {
+    display: inline-block;
+    text-decoration: none;
+    color: $color-primary-1;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    padding-bottom: 0.2rem;
+    border-bottom: 3px solid transparent;
+    transition: all 0.3s ease;
+
+    &:hover,
+    &:active {
+      border-bottom: 3px solid $color-primary-2;
+    }
+  }
+
+  &__img {
+    width: 17rem;
+    height: 17rem;
+    border-radius: 50%;
+    margin-bottom: 2.4rem;
+  }
+
+  &__icons {
+    display: flex;
+    gap: 1.8rem;
+    margin: 3.6rem 0;
+  }
+
+  &__icon:link,
+  &__icon:visited {
+    display: inline-block;
+    color: $color-primary;
+    font-size: 1.8rem;
+  }
+
+  &__buttons {
+    display: flex;
+    gap: 1.8rem;
+  }
+}
+
+.home {
+  &__img {
+    width: 100%;
+    transition: all 0.3s;
+  }
+
+  &__title {
+    font-size: 3.2rem;
+    text-transform: capitalize;
+    margin-top: 3.2rem;
+    margin-bottom: 2.4rem;
+  }
+
+  &__text {
+    font-size: 1.8rem;
+    line-height: 1.6;
+    margin-bottom: 1.6rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__anchor {
+    display: flex;
+    gap: 1.6rem;
+  }
+}
+
+.quote {
+  margin-top: 4.6rem;
+  max-width: 50%;
+  margin-left: auto;
+  color: #888;
+  background-color: #eee;
+  padding: 2.4rem;
+  border-radius: 6px;
+  border-left: 0.6rem solid $color-grey-4;
+
+  &__author {
+    font-size: 1.8rem;
+    margin-bottom: 1.2rem;
+  }
+
+  &__text {
+    font-size: 1.4rem;
+    line-height: 1.4;
+  }
+}

@@ -1,45 +1,4 @@
-.container-div {
-  display: flex;
-
-  @media only screen and (max-width: $bp-small) {
-    flex-direction: column-reverse;
-  }
-}
-
-.main-content {
-  flex: 1;
-  padding: 3rem 5rem;
-
-  & > * {
-    margin-top: 4rem;
-    padding: 2rem;
-    border-radius: 7px;
-    background-color: $color-grey-2;
-
-    &:not(:last-child) {
-      margin-bottom: 8rem;
-    }
-  }
-
-  @media only screen and (max-width: $bp-smallest) {
-    padding: 4rem 2rem;
-  }
-}
-
-.desktop {
-  display: block;
-
-  @media only screen and (max-width: $bp-small) {
-    display: none;
-  }
-}
-
-.mobile {
-  display: none;
-
-  @media only screen and (max-width: $bp-small) {
-    display: block;
-    background-color: $color-grey-2;
-    padding: 2rem;
-  }
+.container {
+  display: grid;
+  grid-template-columns: 30fr 60fr;
 }

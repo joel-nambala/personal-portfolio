@@ -1,19 +1,12 @@
 @import "abstract/variables";
-@import "abstract/utilities";
 
 @import "base/base";
+@import "base/utilites";
 
 @import "components/about";
-@import "components/buttons";
 @import "components/footer";
-@import "components/hero";
-@import "components/images";
+@import "components/index";
 @import "components/projects";
-@import "components/quote";
-@import "components/revocafe";
-@import "components/sidebar";
 @import "components/skills";
 
 @import "layout/layout";
-
-@import "pages/home";

@@ -1,111 +1,28 @@
-.projects {
-  &__heading {
-    font-size: 3rem;
-    margin-bottom: 4rem;
+.project {
+  &__title {
+    font-size: 3.6rem;
+    margin-bottom: 3.2rem;
   }
 
-  & > * {
-    padding: 2rem;
-    border-radius: 7px;
-    background-color: #fff;
-  }
-}
-
-.revocafeapp {
-  &__photo {
-    margin-bottom: 3rem;
-  }
-
-  &__image {
+  &__img {
     width: 100%;
   }
 
-  &__heading {
-    font-size: 2.8rem;
-    margin-bottom: 2rem;
+  &__name {
+    font-size: 2.4rem;
+    margin-top: 1.8rem;
+    margin-bottom: 1.2rem;
   }
 
-  &__paragraph {
-    font-size: $default-font-size;
+  &__text {
+    font-size: 1.6rem;
+    line-height: 1.6;
   }
 
-  &__tech {
-    color: $color-primary-2;
-  }
-
-  &__link {
-    margin-top: 2rem;
-  }
-
-  &__item {
-    &:not(:last-child) {
-      margin-right: 1.3rem;
-    }
-  }
-}
-
-.weather {
-  margin-top: 3rem;
-
-  &__photo {
-    margin-bottom: 2rem;
-  }
-
-  &__image {
-    width: 100%;
-  }
-
-  &__heading {
-    font-size: 2.7rem;
-    margin-bottom: 3rem;
-  }
-
-  &__paragraph {
-    font-size: $default-font-size;
-  }
-
-  &__tech {
-    color: $color-primary-2;
-  }
-
-  &__link {
-    margin-top: 2rem;
-  }
-
-  &__item {
-    &:not(:last-child) {
-      margin-right: 1.3rem;
-    }
-  }
-}
-
-.traveline {
-  margin-top: 3rem;
-
-  &__photo {
-    margin-bottom: 3rem;
-  }
-
-  &__image {
-    width: 100%;
-  }
-
-  &__heading {
-    margin-bottom: 3rem;
-    font-size: 2.8rem;
-  }
-
-  &__paragraph {
-    font-size: $default-font-size;
-  }
-
-  &__tech {
-    color: $color-primary-2;
-  }
-
-  &__item {
-    &:not(:last-child) {
-      margin-right: 1.3rem;
-    }
+  &__anchor {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2.4rem;
   }
 }

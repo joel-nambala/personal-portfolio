@@ -1,6 +1,6 @@
-# Personal-portfolio
+# Personal portfolio
 
-I created this portfolio using HTML5 and SCSS with a little JavaScript
+I created this portfolio using HTML5, CSS3, SCSS and vanilla JavaScript
 
 ## Available scripts
 
@@ -14,6 +14,10 @@ Starts the application in development
 
 Builds the application ready for shipment
 
-## Packages
+### `npm init`
 
-I used node-sass and npm-run-all packages in this project
+Installs all dependencies used during the development stage
+
+### Packages
+
+I used **`node-sass`** and **`npm-run-all`** packages in this project

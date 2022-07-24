@@ -3,4 +3,6 @@
 
 # Ada Library Information
 *.ali
+
+# Node modules will be installed with the npm init script
 node_modules

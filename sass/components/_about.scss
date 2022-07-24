@@ -1,104 +1,60 @@
 .about {
-  &__heading {
-    font-size: 2.8rem;
-    margin-bottom: 2rem;
+  &__title {
+    padding-top: 1.8rem;
+    font-size: 3.2rem;
+    margin-bottom: 1.2rem;
+    text-transform: capitalize;
   }
 
-  &__paragraph {
-    font-size: $default-font-size;
-  }
+  &__text {
+    font-size: 1.6rem;
+    line-height: 1.6;
 
-  &__link {
-    color: $color-primary-2;
-    text-decoration: none;
-
-    &:hover {
-      color: $color-primary-2;
+    &:not(:last-child) {
+      margin-bottom: 1.2rem;
     }
   }
 
-  &__photo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 6rem 0;
+  &__img {
+    display: block;
+    max-width: 40rem;
+    margin: 3.2rem auto 0 auto;
+    border-radius: 4px;
   }
 
-  &__image {
-    width: 50%;
-    border-radius: 6px;
-    border: 2px solid $color-primary-2;
-    transition: all 0.6s;
-    cursor: pointer;
-
-    &:hover {
-      transform: scale(1.07);
-    }
-  }
-}
-
-.journey {
-  &__heading {
+  &__contribution {
     font-size: 2.6rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.6rem;
+    margin-top: 3.2rem;
   }
 
-  &__paragraph {
-    font-size: $default-font-size;
-
-    &:last-of-type {
-      margin-bottom: 3rem;
-    }
-  }
-
-  &__secondary {
-    font-size: 2.2rem;
-    margin-bottom: 2rem;
-  }
-
-  &__photo {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 3rem;
-  }
-
-  &__image {
+  &__img--contribution {
     width: 100%;
   }
 }
 
 .community {
-  &__heading {
-    font-size: 2.8rem;
-    margin-bottom: 4rem;
+  &__title {
+    font-size: 3.2rem;
+    margin-bottom: 1.6rem;
   }
 
-  &__list {
-    list-style: none;
-  }
-
-  &__item {
-    margin-bottom: 2rem;
-  }
-
-  &__image {
-    width: 20%;
-    height: 20%;
+  &__img {
+    width: 14rem;
+    height: 14rem;
     border-radius: 50%;
-
-    @media only screen and (max-width: $bp-small) {
-      width: 10rem;
-      height: 10rem;
-    }
+    margin-top: 2.4rem;
+    margin-bottom: 1.4rem;
   }
 
-  &__secondary {
-    font-size: 2.2rem;
-    color: $color-primary-2;
-    margin: 2rem 0 1rem 0;
+  &__name {
+    font-size: 2.4rem;
+    margin-bottom: 0.8rem;
+    color: $color-primary-1;
   }
 
-  &__paragraph {
-    font-size: $default-font-size;
+  &__text {
+    font-size: 1.6rem;
+    line-height: 1.6;
   }
 }
