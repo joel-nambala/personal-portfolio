@@ -17,15 +17,17 @@ const getQuote = async function () {
 
     const randomInt = (min, max) =>
       Math.floor(Math.random() * (max - min + 1) + min);
-    const randomNumber = randomInt(0, 500);
+    const randomNumber = randomInt(0, data.length - 1);
+    console.log(randomNumber);
 
     const quote = data[randomNumber];
+    console.log(quote);
 
     quoteAuthor.textContent = '';
     quoteText.textContent = '';
 
     if (quote.author === null) quoteAuthor.textContent = 'Joel Nambala';
-    else quoteAuthor.textContent = quote.author;
+    else quoteAuthor.textContent = quote.author.split(',').slice(0, 1).join('');
     quoteText.textContent = quote.text;
   } catch (error) {
     console.log(error);
