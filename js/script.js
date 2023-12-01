@@ -21,7 +21,6 @@ const getQuote = async function () {
     console.log(randomNumber);
 
     const quote = data[randomNumber];
-    console.log(quote);
 
     quoteAuthor.textContent = '';
     quoteText.textContent = '';
